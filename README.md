@@ -1,5 +1,4 @@
 # Basic layouts for Pilo'Press 
-Inline-style: 
 ![alt text](https://github.com/Jonathan-Scapin/JS-PiloPress-Public-Layouts/blob/main/img/screenshot.png "Logo Pilo'Press")
 ## Installation 
 1.  **Download**  this repo as zip or  **clone**  it.
