@@ -1,0 +1,235 @@
+    {
+        "key": "group_60d304fb45ee3",
+        "title": "Menu",
+        "fields": [
+            {
+                "key": "field_60d304fb4cada",
+                "label": "Background color",
+                "name": "section_bg_color",
+                "type": "pip_font_color",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "field_type": "select",
+                "multiple": 0,
+                "ui": 0,
+                "pip_default_value": "",
+                "class_output": "background",
+                "show_add_to_editor": 1,
+                "choices": [],
+                "placeholder": "",
+                "return_format": "value",
+                "allow_null": true,
+                "other_choice": 0,
+                "allow_custom": 0,
+                "ajax": false
+            },
+            {
+                "key": "field_60d304fb4cb1e",
+                "label": "Logo (transparent background)",
+                "name": "logo_transparent",
+                "type": "image",
+                "instructions": "Leave empty to use logo defined in <i>Appearance<\/i> > <i>Customize<\/i>.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "acfe_save_meta": 0,
+                "uploader": "wp",
+                "acfe_thumbnail": 0,
+                "return_format": "array",
+                "preview_size": "thumbnail",
+                "library": "all",
+                "min_width": "",
+                "min_height": "",
+                "min_size": "",
+                "max_width": "",
+                "max_height": "",
+                "max_size": "",
+                "mime_types": "",
+                "acfe_field_group_condition": 0
+            },
+            {
+                "key": "field_60d304fb4cb5e",
+                "label": "Logo (colored background)",
+                "name": "logo_background",
+                "type": "image",
+                "instructions": "Leave empty to use logo defined in <i>Appearance<\/i> > <i>Customize<\/i>.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "acfe_save_meta": 0,
+                "uploader": "wp",
+                "acfe_thumbnail": 0,
+                "return_format": "array",
+                "preview_size": "thumbnail",
+                "library": "all",
+                "min_width": "",
+                "min_height": "",
+                "min_size": "",
+                "max_width": "",
+                "max_height": "",
+                "max_size": "",
+                "mime_types": "",
+                "acfe_field_group_condition": 0
+            },
+            {
+                "key": "field_60d4459a3e134",
+                "label": "Sticky",
+                "name": "sticky",
+                "type": "select",
+                "instructions": "Select if you want sticky menu",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "relative": "relative",
+                    "fixed w-full z-10": "fixed w-full z-10"
+                },
+                "default_value": "relative",
+                "allow_null": 0,
+                "multiple": 0,
+                "ui": 0,
+                "return_format": "value",
+                "ajax": 0,
+                "placeholder": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "all"
+                }
+            ],
+            [
+                {
+                    "param": "taxonomy",
+                    "operator": "==",
+                    "value": "all"
+                }
+            ],
+            [
+                {
+                    "param": "pip-pattern",
+                    "operator": "==",
+                    "value": "all"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": false,
+        "description": "",
+        "_pip_thumbnail": "",
+        "acfe_display_title": "",
+        "acfe_autosync": [
+            "php",
+            "json"
+        ],
+        "_pip_is_layout": 1,
+        "_pip_layout_slug": "menu-contained-seabass",
+        "_pip_render_layout": "menu-contained-seabass.php",
+        "_pip_render_style": "menu-contained-seabass.css",
+        "_pip_render_script": "menu-contained-seabass.js",
+        "field_add_config_file": 1,
+        "_pip_config_file": "configuration.php",
+        "field_add_configuration": 0,
+        "pip_layout_var": {
+            "60d4488552d47": {
+                "pip_layout_var_key": "wrapper-main-transparent",
+                "pip_layout_var_value": "h-20 "
+            },
+            "60d4488452d46": {
+                "pip_layout_var_key": "scroll-wrapper-main-transparent",
+                "pip_layout_var_value": "h-20"
+            },
+            "60d4488452d45": {
+                "pip_layout_var_key": "wrapper-main-color",
+                "pip_layout_var_value": "h-20"
+            },
+            "60d4488452d44": {
+                "pip_layout_var_key": "scroll-wrapper-main-color",
+                "pip_layout_var_value": "h-20"
+            },
+            "60d4488452d43": {
+                "pip_layout_var_key": "inner-wrapper-main",
+                "pip_layout_var_value": "flex items-center justify-between lg:justify-start h-full"
+            },
+            "60d4488452d42": {
+                "pip_layout_var_key": "wrapper-logo",
+                "pip_layout_var_value": "z-10"
+            },
+            "60d4488452d41": {
+                "pip_layout_var_key": "wrapper-menu-items",
+                "pip_layout_var_value": "hidden lg:flex w-full h-auto lg:h-full items-center justify-end absolute lg:static top-20 left-0 bg-white lg:bg-transparent z-10 p-4"
+            },
+            "60d4488352d40": {
+                "pip_layout_var_key": "scroll-after-nb-pixels",
+                "pip_layout_var_value": ""
+            },
+            "60d4488352d3f": {
+                "pip_layout_var_key": "logo",
+                "pip_layout_var_value": "h-16 w-16 object-center object-cover"
+            },
+            "60d4488352d3e": {
+                "pip_layout_var_key": "menu-classes-transparent",
+                "pip_layout_var_value": "lg:flex items-center h-full p-4 lg:p-0 lg:text-black"
+            },
+            "60d4488352d3d": {
+                "pip_layout_var_key": "menu-classes-color",
+                "pip_layout_var_value": "lg:flex items-center h-full p-4 lg:p-0"
+            },
+            "60d4488352d3c": {
+                "pip_layout_var_key": "wrapper-burger-button",
+                "pip_layout_var_value": "block lg:hidden z-10"
+            },
+            "60d4488352d3b": {
+                "pip_layout_var_key": "burger-button-transparent",
+                "pip_layout_var_value": "flex items-center px-3 py-2 rounded text-blue-800 focus:text-primary focus:outline-none hover:text-blue-500"
+            },
+            "60d4488352d3a": {
+                "pip_layout_var_key": "burger-button-color",
+                "pip_layout_var_value": "flex items-center px-3 py-2 rounded text-black focus:text-blue-800 focus:outline-none hover:text-blue-500"
+            },
+            "60d4488152d39": {
+                "pip_layout_var_key": "burger-button-close",
+                "pip_layout_var_value": "fill-current h-6 w-6"
+            },
+            "60d4487152d38": {
+                "pip_layout_var_key": "burger-button-open",
+                "pip_layout_var_value": "h-6 w-6 fill-current hidden"
+            }
+        },
+        "pip_layout_vars_lock": 0,
+        "acfe_form": 0,
+        "acfe_meta": "",
+        "acfe_note": "",
+        "layout_categories": {
+            "menu": "Menu"
+        },
+        "layout_collections": {
+            "seabass": "seabass"
+        }
+    }

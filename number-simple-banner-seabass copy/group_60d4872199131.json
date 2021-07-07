@@ -1,0 +1,434 @@
+    {
+        "key": "group_60d4872199131",
+        "title": "Number banner",
+        "fields": [
+            {
+                "key": "field_60d48844d6df5",
+                "label": "Numbers",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_60d48871728c8",
+                "label": "Numbers",
+                "name": "numbers",
+                "type": "repeater",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "acfe_repeater_stylised_button": 0,
+                "collapsed": "",
+                "min": 0,
+                "max": 0,
+                "layout": "table",
+                "button_label": "",
+                "sub_fields": [
+                    {
+                        "key": "field_60d488c6728c9",
+                        "label": "number_1",
+                        "name": "number_1",
+                        "type": "group",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "layout": "block",
+                        "acfe_seamless_style": 0,
+                        "acfe_group_modal": 0,
+                        "sub_fields": [
+                            {
+                                "key": "field_60d48d730fec3",
+                                "label": "number",
+                                "name": "number",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "acfe_save_meta": 0,
+                                "default_value": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "maxlength": ""
+                            },
+                            {
+                                "key": "field_60d48fa362f8d",
+                                "label": "legend",
+                                "name": "legend",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "maxlength": ""
+                            }
+                        ]
+                    },
+                    {
+                        "key": "field_60d48fb462f8e",
+                        "label": "number_2",
+                        "name": "number_2",
+                        "type": "group",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "layout": "block",
+                        "acfe_seamless_style": 0,
+                        "acfe_group_modal": 0,
+                        "sub_fields": [
+                            {
+                                "key": "field_60d48fb462f8f",
+                                "label": "number",
+                                "name": "number",
+                                "type": "number",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "min": "",
+                                "max": "",
+                                "step": ""
+                            },
+                            {
+                                "key": "field_60d48fb462f90",
+                                "label": "legend",
+                                "name": "legend",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "maxlength": ""
+                            }
+                        ]
+                    },
+                    {
+                        "key": "field_60d48fb662f91",
+                        "label": "number_3",
+                        "name": "number_3",
+                        "type": "group",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "layout": "block",
+                        "acfe_seamless_style": 0,
+                        "acfe_group_modal": 0,
+                        "sub_fields": [
+                            {
+                                "key": "field_60d48fb662f92",
+                                "label": "number",
+                                "name": "number",
+                                "type": "number",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "min": "",
+                                "max": "",
+                                "step": ""
+                            },
+                            {
+                                "key": "field_60d48fb662f93",
+                                "label": "legend",
+                                "name": "legend",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "maxlength": ""
+                            }
+                        ]
+                    },
+                    {
+                        "key": "field_60d48fb762f94",
+                        "label": "number_4",
+                        "name": "number_4",
+                        "type": "group",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "layout": "block",
+                        "acfe_seamless_style": 0,
+                        "acfe_group_modal": 0,
+                        "sub_fields": [
+                            {
+                                "key": "field_60d48fb762f95",
+                                "label": "number",
+                                "name": "number",
+                                "type": "number",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "min": "",
+                                "max": "",
+                                "step": ""
+                            },
+                            {
+                                "key": "field_60d48fb762f96",
+                                "label": "legend",
+                                "name": "legend",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "maxlength": ""
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "field_60d488fa728cf",
+                "label": "Configuration",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_60d48915728d0",
+                "label": "Advanced mode",
+                "name": "advanced_mode",
+                "type": "true_false",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "message": "",
+                "default_value": 0,
+                "ui": 1,
+                "ui_on_text": "",
+                "ui_off_text": ""
+            },
+            {
+                "key": "field_60d48937728d1",
+                "label": "Number(s) per row",
+                "name": "nb_item_per_row",
+                "type": "group",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "layout": "block",
+                "acfe_seamless_style": 0,
+                "acfe_group_modal": 0,
+                "sub_fields": []
+            },
+            {
+                "key": "field_60d495a70bc28",
+                "label": "Background color",
+                "name": "bg_color",
+                "type": "pip_font_color",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "field_type": "select",
+                "multiple": 0,
+                "ui": 0,
+                "pip_default_value": "noire",
+                "class_output": "background",
+                "show_add_to_editor": 1,
+                "choices": [],
+                "placeholder": "",
+                "return_format": "value",
+                "allow_null": true,
+                "other_choice": 0,
+                "allow_custom": 0,
+                "ajax": false
+            },
+            {
+                "key": "field_60d495db0bc29",
+                "label": "Text color",
+                "name": "txt_color",
+                "type": "pip_font_color",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "field_type": "select",
+                "multiple": 0,
+                "ui": 0,
+                "pip_default_value": "blanche",
+                "class_output": "text",
+                "show_add_to_editor": 1,
+                "choices": [],
+                "placeholder": "",
+                "return_format": "value",
+                "allow_null": true,
+                "other_choice": 0,
+                "allow_custom": 0,
+                "ajax": false
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "all"
+                }
+            ],
+            [
+                {
+                    "param": "taxonomy",
+                    "operator": "==",
+                    "value": "all"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "left",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": false,
+        "description": "",
+        "_pip_thumbnail": "",
+        "acfe_display_title": "",
+        "acfe_autosync": [
+            "php",
+            "json"
+        ],
+        "_pip_is_layout": 1,
+        "_pip_layout_slug": "number-simple-banner-seabass",
+        "_pip_render_layout": "number-simple-banner-seabass.php",
+        "_pip_render_style": "number-simple-banner-seabass.css",
+        "_pip_render_script": "number-simple-banner-seabass.js",
+        "field_add_config_file": 0,
+        "field_add_configuration": 0,
+        "pip_layout_var": "",
+        "pip_layout_vars_lock": 0,
+        "acfe_form": 0,
+        "acfe_meta": "",
+        "acfe_note": "",
+        "layout_categories": {
+            "bar": "Bar"
+        },
+        "layout_collections": {
+            "seabass": "seabass"
+        }
+    }

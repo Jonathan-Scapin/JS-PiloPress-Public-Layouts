@@ -1,0 +1,241 @@
+{
+    "key": "group_60dc76afed9ac",
+    "title": "contact form",
+    "fields": [
+        {
+            "key": "field_60dc8175f74d7",
+            "label": "Objet",
+            "name": "objet",
+            "type": "select",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "creation site": "creation site",
+                "optimisation site": "optimisation site",
+                "formation": "formation"
+            },
+            "default_value": false,
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "return_format": "value",
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_60dc81c3f74d8",
+            "label": "Société",
+            "name": "societe",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "acfe_save_meta": 0,
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_60dc81d1f74d9",
+            "label": "Nom",
+            "name": "nom",
+            "type": "text",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "acfe_save_meta": 0,
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_60dc81dff74da",
+            "label": "Prénom",
+            "name": "prenom",
+            "type": "text",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "acfe_save_meta": 0,
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_60dc81e8f74db",
+            "label": "Email",
+            "name": "email",
+            "type": "text",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "acfe_save_meta": 0,
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_60dc81f0f74dc",
+            "label": "Téléphone",
+            "name": "telephone",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "acfe_save_meta": 0,
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_60dc8200f74dd",
+            "label": "Votre message",
+            "name": "votre_message",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": "",
+            "acfe_textarea_code": 0
+        },
+        {
+            "key": "field_60dc820ef74de",
+            "label": "Opt-in",
+            "name": "opt-in",
+            "type": "checkbox",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "Les informations recueillies dans ce formulaire sont utilisées pour répondre à votre demande. Pour plus d’informations et pour faire valoir votre droit de rétractation, rendez-vous sur notre page politique de confidentialité": "Les informations recueillies dans ce formulaire sont utilisées par PROXITY pour répondre à votre demande. Pour plus d’informations et pour faire valoir votre droit de rétractation, rendez-vous sur notre page politique de confidentialité"
+            },
+            "allow_custom": 0,
+            "default_value": [],
+            "layout": "vertical",
+            "toggle": 0,
+            "return_format": "value",
+            "save_custom": 0
+        },
+        {
+            "key": "field_60dc8258f74df",
+            "label": "Captcha",
+            "name": "captcha",
+            "type": "acfe_recaptcha",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "version": "v2",
+            "v2_theme": "light",
+            "v2_size": "normal",
+            "site_key": "",
+            "secret_key": "",
+            "disabled": 0,
+            "readonly": 0,
+            "v3_hide_logo": false
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "all"
+            }
+        ],
+        [
+            {
+                "param": "taxonomy",
+                "operator": "==",
+                "value": "all"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "left",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": false,
+    "description": "",
+    "_pip_thumbnail": "",
+    "acfe_display_title": "",
+    "acfe_autosync": [
+        "php",
+        "json"
+    ],
+    "_pip_is_layout": 1,
+    "_pip_layout_slug": "contact-form-seabass",
+    "_pip_render_layout": "contact-form-seabass.php",
+    "_pip_render_style": "contact-form-seabass.css",
+    "_pip_render_script": "contact-form-seabass.js",
+    "field_add_config_file": 1,
+    "_pip_config_file": "configuration-contact-form-seabass.php",
+    "field_add_configuration": 0,
+    "pip_layout_var": "",
+    "pip_layout_vars_lock": 0,
+    "acfe_form": 0,
+    "acfe_meta": "",
+    "acfe_note": "",
+    "modified": 1625064059
+}
